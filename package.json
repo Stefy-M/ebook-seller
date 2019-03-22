@@ -1,0 +1,25 @@
+{
+  "name": "ebook-seller",
+  "version": "1.0.0",
+  "description": "App to sell ebook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefy-M/ebook-seller.git"
+  },
+  "author": "Stefon Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stefy-M/ebook-seller/issues"
+  },
+  "homepage": "https://github.com/Stefy-M/ebook-seller#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "stripe": "^6.28.0"
+  }
+}

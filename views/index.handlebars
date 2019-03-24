@@ -12,11 +12,29 @@
             </h1>
             <p class="lead">
                 Learn Web dev front to back
-            <p>
-            
+                <p>
+                    <form action="/charge" method="POST">
+                        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="pk_test_AydB8afsjFVRSWs6b17a3k8900kPNZYbLJ" 
+                            data-amount="2500"
+                            data-name="Web development ebook" 
+                            data-description="Ebook written by Stefon"
+                            data-image="images/marketplace.png"
+                            data-locale="auto">
+                            </script>
+                            <script>
+                                //Hide default button
+                                document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+
+                            </script>
+                            <button type = "submit" class = "btn btn-outline-secondary btn-lg">
+                                Purchase for $25
+                            </button>
+                    </form>
+
         </div>
         <div class="col-md-6">
-            <img src="images/book.png" alt="" class ="img-fluid">
+            <img src="images/book.png" alt="" class="img-fluid">
         </div>
     </div>
 </section>
